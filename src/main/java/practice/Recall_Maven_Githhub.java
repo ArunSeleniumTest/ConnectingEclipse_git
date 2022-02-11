@@ -11,6 +11,7 @@ public class Recall_Maven_Githhub {
 		ChromeDriver driver =  new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		driver.quit();
+		driver.close();
 		
 		
 	}
